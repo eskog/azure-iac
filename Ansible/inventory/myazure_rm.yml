@@ -1,0 +1,9 @@
+---
+plugin: azure_rm
+include_vm_resource_groups:
+  - myTFResourceGroup
+auth_source: auto
+
+keyed_groups:
+  - key: tags.role
+  - key: tags.OS

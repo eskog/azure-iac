@@ -1,0 +1,43 @@
+---
+- name: Set up Kubernetes cluster
+  hosts: master01
+  become: true
+  tasks:
+    - name: Initialize Kubernetes cluster
+      ansible.builtin.command: kubeadm init --pod-network-cidr=10.48.0.0/16
+      register: kubeadm_output
+
+    - name: Save kubeconfig for root user
+      ansible.builtin.copy:
+        content: "{{ kubeadm_output.stdout_lines | join('\n') }}"
+        dest: /root/kubeadm_init_output.txt
+        mode: "0600"
+
+    - name: Ensure .kube directory exists
+      ansible.builtin.file:
+        path: /home/{{ ansible_user }}/.kube
+        state: directory
+        owner: "{{ ansible_user }}"
+        group: "{{ ansible_user }}"
+        mode: "0755"
+
+    - name: Set up kubeconfig for kubectl
+      ansible.builtin.copy:
+        src: /etc/kubernetes/admin.conf
+        dest: /home/{{ ansible_user }}/.kube/config
+        remote_src: true
+        mode: "0644"
+      notify:
+        - Change kubeconfig permissions
+
+    - name: Install networking plugin (Weave Net)
+      ansible.builtin.command: kubectl apply -f "https://github.com/coreos/flannel/raw/master/Documentation/kube-flannel.yml"
+      become: false
+
+  handlers:
+    - name: Change kubeconfig permissions
+      ansible.builtin.file:
+        path: /home/{{ ansible_user }}/.kube/config
+        owner: "{{ ansible_user }}"
+        group: "{{ ansible_user }}"
+        mode: "0600"

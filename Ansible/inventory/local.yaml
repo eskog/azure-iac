@@ -1,0 +1,27 @@
+all:
+  hosts:
+    master01:
+      ansible_host: 192.168.77.129
+    master02:
+      ansible_host: 192.168.77.131
+    master03:
+      ansible_host: 192.168.77.132
+    worker01:
+      ansible_host: 192.168.77.130
+    worker02:
+      ansible_host: 192.168.77.133
+    worker03:
+      ansible_host: 192.168.77.134
+  children:
+    master:
+      hosts:
+        master01:
+        #master02:
+        #master03:
+    workers:
+      hosts:
+        worker01:
+        worker02:
+        worker03:
+        master02:
+        master03:
