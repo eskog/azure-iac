@@ -88,7 +88,7 @@ jsonschema-specifications==2024.10.1
 knack==0.11.0
 MarkupSafe==3.0.2
 microsoft-kiota-abstractions==1.6.6
-microsoft-kiota-authentication-azure==1.6.6
+microsoft-kiota-authentication-azure==1.9.3
 microsoft-kiota-http==1.6.6
 microsoft-kiota-serialization-form==1.6.6
 microsoft-kiota-serialization-json==1.6.6
