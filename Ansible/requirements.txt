@@ -196,7 +196,7 @@ azure-mgmt-rdbms==10.2.0b17
     # via -r requirements.in
 azure-mgmt-recoveryservices==3.0.0
     # via -r requirements.in
-azure-mgmt-recoveryservicesbackup==9.1.0
+azure-mgmt-recoveryservicesbackup==9.2.0
     # via -r requirements.in
 azure-mgmt-redis==14.4.0
     # via -r requirements.in
@@ -258,6 +258,8 @@ deprecated==1.2.18
     # via
     #   opentelemetry-api
     #   opentelemetry-semantic-conventions
+distro==1.9.0
+    # via azure-cli-core
 filelock==3.18.0
     # via ansible-lint
 frozenlist==1.6.0
@@ -540,6 +542,7 @@ typing-extensions==4.13.2
     #   azure-mgmt-managementgroups
     #   azure-mgmt-marketplaceordering
     #   azure-mgmt-network
+    #   azure-mgmt-recoveryservicesbackup
     #   azure-mgmt-resource
     #   azure-mgmt-servicebus
     #   azure-mgmt-sql
