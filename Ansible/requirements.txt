@@ -92,7 +92,7 @@ microsoft-kiota-authentication-azure==1.9.3
 microsoft-kiota-http==1.6.6
 microsoft-kiota-serialization-form==1.6.6
 microsoft-kiota-serialization-json==1.6.6
-microsoft-kiota-serialization-multipart==1.6.6
+microsoft-kiota-serialization-multipart==1.9.3
 microsoft-kiota-serialization-text==1.6.6
 msal==1.30.0
 msal-extensions==1.2.0
