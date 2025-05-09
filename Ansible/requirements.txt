@@ -208,7 +208,7 @@ azure-mgmt-servicebus==8.2.1
     # via -r requirements.in
 azure-mgmt-sql==4.0.0b19
     # via -r requirements.in
-azure-mgmt-storage==21.2.1
+azure-mgmt-storage==22.2.0
     # via -r requirements.in
 azure-mgmt-trafficmanager==1.1.0
     # via -r requirements.in
@@ -533,6 +533,7 @@ typing-extensions==4.13.2
     #   azure-mgmt-resource
     #   azure-mgmt-servicebus
     #   azure-mgmt-sql
+    #   azure-mgmt-storage
     #   azure-mgmt-web
     #   azure-storage-blob
     #   opentelemetry-sdk
