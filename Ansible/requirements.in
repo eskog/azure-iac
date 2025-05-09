@@ -6,7 +6,7 @@ azure-keyvault==4.2.0
 azure-mgmt-apimanagement==4.0.1
 azure-mgmt-authorization==4.0.0
 azure-mgmt-automation==1.1.0b4
-azure-mgmt-batch==17.3.0
+azure-mgmt-batch==18.0.0
 azure-mgmt-cdn==13.1.1
 azure-mgmt-compute==33.0.0
 azure-mgmt-containerinstance==10.1.0
