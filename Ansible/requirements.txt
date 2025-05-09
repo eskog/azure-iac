@@ -170,7 +170,7 @@ azure-mgmt-eventhub==11.1.0
     # via -r requirements.in
 azure-mgmt-hdinsight==9.1.0b1
     # via -r requirements.in
-azure-mgmt-iothub==3.0.0
+azure-mgmt-iothub==4.0.0
     # via -r requirements.in
 azure-mgmt-keyvault==10.3.1
     # via -r requirements.in
@@ -224,8 +224,6 @@ black==25.1.0
     # via ansible-lint
 bracex==2.5.post1
     # via wcmatch
-build==1.2.2.post1
-    # via pip-tools
 certifi==2025.4.26
     # via
     #   httpcore
@@ -239,9 +237,7 @@ cffi==1.17.1
 charset-normalizer==3.4.2
     # via requests
 click==8.1.8
-    # via
-    #   black
-    #   pip-tools
+    # via black
 cryptography==44.0.3
     # via
     #   adal
@@ -258,6 +254,8 @@ deprecated==1.2.18
     # via
     #   opentelemetry-api
     #   opentelemetry-semantic-conventions
+distro==1.9.0
+    # via azure-cli-core
 filelock==3.18.0
     # via ansible-lint
 frozenlist==1.6.0
@@ -425,9 +423,7 @@ packaging==25.0
     #   ansible-lint
     #   azure-cli-core
     #   black
-    #   build
     #   knack
-    #   pipdeptree
 paramiko==3.5.1
     # via azure-cli-core
 pathspec==0.12.1
@@ -435,10 +431,6 @@ pathspec==0.12.1
     #   ansible-lint
     #   black
     #   yamllint
-pip-tools==7.4.1
-    # via -r requirements.in
-pipdeptree==2.26.1
-    # via -r requirements.in
 pkginfo==1.12.1.2
     # via azure-cli-core
 platformdirs==4.3.7
@@ -466,10 +458,6 @@ pynacl==1.5.0
     # via paramiko
 pyopenssl==25.0.0
     # via azure-cli-core
-pyproject-hooks==1.2.0
-    # via
-    #   build
-    #   pip-tools
 pysocks==1.7.1
     # via
     #   -r requirements.in
@@ -534,6 +522,7 @@ typing-extensions==4.13.2
     #   azure-mgmt-devtestlabs
     #   azure-mgmt-eventhub
     #   azure-mgmt-hdinsight
+    #   azure-mgmt-iothub
     #   azure-mgmt-keyvault
     #   azure-mgmt-loganalytics
     #   azure-mgmt-managedservices
@@ -550,8 +539,6 @@ urllib3==2.4.0
     # via requests
 wcmatch==10.0
     # via ansible-lint
-wheel==0.45.1
-    # via pip-tools
 wrapt==1.17.2
     # via deprecated
 xmltodict==0.14.2
@@ -562,7 +549,3 @@ yarl==1.20.0
     # via aiohttp
 zipp==3.21.0
     # via importlib-metadata
-
-# The following packages are considered to be unsafe in a requirements file:
-# pip
-# setuptools
