@@ -107,7 +107,7 @@ azure-mgmt-authorization==4.0.0
     # via -r requirements.in
 azure-mgmt-automation==1.1.0b4
     # via -r requirements.in
-azure-mgmt-batch==17.3.0
+azure-mgmt-batch==18.0.0
     # via -r requirements.in
 azure-mgmt-cdn==13.1.1
     # via -r requirements.in
