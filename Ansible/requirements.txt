@@ -27,7 +27,7 @@ anyio==4.9.0
     # via httpx
 applicationinsights==0.11.10
     # via azure-cli-telemetry
-argcomplete==3.3.0
+argcomplete==3.5.3
     # via
     #   azure-cli-core
     #   knack
@@ -36,7 +36,7 @@ attrs==25.3.0
     #   aiohttp
     #   jsonschema
     #   referencing
-azure-cli-core==2.64.0
+azure-cli-core==2.73.0
     # via -r requirements.in
 azure-cli-telemetry==1.1.0
     # via azure-cli-core
@@ -218,8 +218,6 @@ azure-nspkg==3.0.2
     # via azure-mgmt-nspkg
 azure-storage-blob==12.23.0b1
     # via -r requirements.in
-bcrypt==4.3.0
-    # via paramiko
 black==25.1.0
     # via ansible-lint
 bracex==2.5.post1
@@ -231,9 +229,7 @@ certifi==2025.4.26
     #   msrest
     #   requests
 cffi==1.17.1
-    # via
-    #   cryptography
-    #   pynacl
+    # via cryptography
 charset-normalizer==3.4.2
     # via requests
 click==8.1.8
@@ -247,7 +243,6 @@ cryptography==44.0.3
     #   azure-keyvault-keys
     #   azure-storage-blob
     #   msal
-    #   paramiko
     #   pyjwt
     #   pyopenssl
 deprecated==1.2.18
@@ -375,7 +370,9 @@ microsoft-kiota-serialization-multipart==1.9.3
     # via msgraph-sdk
 microsoft-kiota-serialization-text==1.9.3
     # via msgraph-sdk
-msal[broker]==1.30.0
+microsoft-security-utilities-secret-masker==1.0.0b4
+    # via azure-cli-core
+msal[broker]==1.32.3
     # via
     #   azure-cli-core
     #   azure-identity
@@ -424,8 +421,6 @@ packaging==25.0
     #   azure-cli-core
     #   black
     #   knack
-paramiko==3.5.1
-    # via azure-cli-core
 pathspec==0.12.1
     # via
     #   ansible-lint
@@ -445,6 +440,8 @@ propcache==0.3.1
     #   yarl
 psutil==7.0.0
     # via azure-cli-core
+py-deviceid==0.1.1
+    # via azure-cli-core
 pycparser==2.22
     # via cffi
 pygments==2.19.1
@@ -454,8 +451,6 @@ pyjwt[crypto]==2.10.1
     #   adal
     #   azure-cli-core
     #   msal
-pynacl==1.5.0
-    # via paramiko
 pyopenssl==25.0.0
     # via azure-cli-core
 pysocks==1.7.1
