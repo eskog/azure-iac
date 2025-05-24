@@ -21,7 +21,7 @@ ansible-core==2.18.5
     #   ansible
     #   ansible-compat
     #   ansible-lint
-ansible-lint==24.12.2
+ansible-lint==25.4.0
     # via -r requirements.in
 anyio==4.9.0
     # via httpx
@@ -463,6 +463,7 @@ pyyaml==6.0.2
     #   yamllint
 referencing==0.36.2
     # via
+    #   ansible-lint
     #   jsonschema
     #   jsonschema-specifications
 requests[socks]==2.32.3
