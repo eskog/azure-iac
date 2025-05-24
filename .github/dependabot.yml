@@ -11,6 +11,8 @@ updates:
     commit-message:
       prefix: "chore(deps)"
       include: "scope"
+    pull-request:
+      bundle: true
 
   - package-ecosystem: "terraform"
     directory: "/Terraform" # adjust if your terraform files are in a subdir
