@@ -190,7 +190,7 @@ azure-mgmt-notificationhubs==8.1.0b1
     # via -r requirements.in
 azure-mgmt-nspkg==3.0.2
     # via -r requirements.in
-azure-mgmt-privatedns==1.1.0
+azure-mgmt-privatedns==1.2.0
     # via -r requirements.in
 azure-mgmt-rdbms==10.2.0b17
     # via -r requirements.in
@@ -519,6 +519,7 @@ typing-extensions==4.13.2
     #   azure-mgmt-managementgroups
     #   azure-mgmt-marketplaceordering
     #   azure-mgmt-network
+    #   azure-mgmt-privatedns
     #   azure-mgmt-recoveryservicesbackup
     #   azure-mgmt-resource
     #   azure-mgmt-servicebus
