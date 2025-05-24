@@ -200,7 +200,7 @@ azure-mgmt-recoveryservicesbackup==9.2.0
     # via -r requirements.in
 azure-mgmt-redis==14.4.0
     # via -r requirements.in
-azure-mgmt-resource==23.3.0
+azure-mgmt-resource==23.4.0
     # via -r requirements.in
 azure-mgmt-search==9.2.0b2
     # via -r requirements.in
