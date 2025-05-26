@@ -21,7 +21,7 @@ ansible-core==2.18.5
     #   ansible
     #   ansible-compat
     #   ansible-lint
-ansible-lint==25.4.0
+ansible-lint==25.5.0
     # via -r requirements.in
 anyio==4.9.0
     # via httpx
