@@ -12,11 +12,11 @@ aiohttp==3.11.18
     # via microsoft-kiota-authentication-azure
 aiosignal==1.3.2
     # via aiohttp
-ansible==11.0.0
+ansible==11.6.0
     # via -r requirements.in
 ansible-compat==25.1.5
     # via ansible-lint
-ansible-core==2.18.5
+ansible-core==2.18.6
     # via
     #   ansible
     #   ansible-compat
