@@ -172,7 +172,7 @@ azure-mgmt-hdinsight==9.1.0b1
     # via -r requirements.in
 azure-mgmt-iothub==4.0.0
     # via -r requirements.in
-azure-mgmt-keyvault==10.3.1
+azure-mgmt-keyvault==11.0.0
     # via -r requirements.in
 azure-mgmt-loganalytics==13.0.0b7
     # via -r requirements.in
