@@ -160,7 +160,7 @@ azure-mgmt-core==1.5.0
     #   azure-mgmt-web
 azure-mgmt-cosmosdb==10.0.0b3
     # via -r requirements.in
-azure-mgmt-datafactory==9.0.0
+azure-mgmt-datafactory==9.2.0
     # via -r requirements.in
 azure-mgmt-devtestlabs==10.0.0b2
     # via -r requirements.in
