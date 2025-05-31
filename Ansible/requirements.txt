@@ -115,7 +115,7 @@ azure-mgmt-compute==33.0.0
     # via -r requirements.in
 azure-mgmt-containerinstance==10.1.0
     # via -r requirements.in
-azure-mgmt-containerregistry==10.3.0
+azure-mgmt-containerregistry==14.0.0
     # via -r requirements.in
 azure-mgmt-containerservice==36.0.0
     # via -r requirements.in
@@ -508,6 +508,7 @@ typing-extensions==4.13.2
     #   azure-keyvault-secrets
     #   azure-mgmt-automation
     #   azure-mgmt-compute
+    #   azure-mgmt-containerregistry
     #   azure-mgmt-containerservice
     #   azure-mgmt-datafactory
     #   azure-mgmt-devtestlabs
