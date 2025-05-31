@@ -3,7 +3,7 @@ ansible-lint==25.5.0
 azure-cli-core==2.73.0
 azure-containerregistry==1.2.0
 azure-keyvault==4.2.0
-azure-mgmt-apimanagement==4.0.1
+azure-mgmt-apimanagement==5.0.0
 azure-mgmt-authorization==4.0.0
 azure-mgmt-automation==1.1.0b4
 azure-mgmt-batch==18.0.0
