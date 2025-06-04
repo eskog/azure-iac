@@ -42,6 +42,6 @@ azure-mgmt-trafficmanager==1.1.0
 azure-mgmt-web==8.0.0
 azure-storage-blob==12.26.0b1
 h2==4.2.0
-msgraph-sdk==1.31.0
+msgraph-sdk==1.32.0
 PySocks==1.7.1
 xmltodict==0.14.2
