@@ -1,6 +1,6 @@
 ansible==11.6.0
 ansible-lint==25.5.0
-azure-cli-core==2.73.0
+azure-cli-core==2.74.0
 azure-containerregistry==1.2.0
 azure-keyvault==4.2.0
 azure-mgmt-apimanagement==5.0.0
