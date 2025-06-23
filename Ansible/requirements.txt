@@ -532,7 +532,7 @@ typing-extensions==4.13.2
     #   azure-mgmt-web
     #   azure-storage-blob
     #   opentelemetry-sdk
-urllib3==2.4.0
+urllib3==2.5.0
     # via requests
 wcmatch==10.0
     # via ansible-lint
