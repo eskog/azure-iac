@@ -196,7 +196,7 @@ azure-mgmt-recoveryservices==3.1.0
     # via -r requirements.in
 azure-mgmt-recoveryservicesbackup==9.2.0
     # via -r requirements.in
-azure-mgmt-redis==14.4.0
+azure-mgmt-redis==14.5.0
     # via -r requirements.in
 azure-mgmt-resource==23.4.0
     # via -r requirements.in
@@ -512,6 +512,7 @@ typing-extensions==4.13.2
     #   azure-mgmt-privatedns
     #   azure-mgmt-recoveryservices
     #   azure-mgmt-recoveryservicesbackup
+    #   azure-mgmt-redis
     #   azure-mgmt-resource
     #   azure-mgmt-servicebus
     #   azure-mgmt-sql
