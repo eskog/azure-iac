@@ -203,7 +203,7 @@ azure-mgmt-search==9.2.0b2
     # via -r requirements.in
 azure-mgmt-servicebus==9.0.0
     # via -r requirements.in
-azure-mgmt-sql==4.0.0b19
+azure-mgmt-sql==4.0.0b21
     # via -r requirements.in
 azure-mgmt-storage==23.0.0
     # via -r requirements.in
