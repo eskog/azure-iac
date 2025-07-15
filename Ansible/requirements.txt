@@ -155,7 +155,7 @@ azure-mgmt-core==1.5.0
     #   azure-mgmt-storage
     #   azure-mgmt-trafficmanager
     #   azure-mgmt-web
-azure-mgmt-cosmosdb==10.0.0b3
+azure-mgmt-cosmosdb==10.0.0b5
     # via -r requirements.in
 azure-mgmt-datafactory==9.2.0
     # via -r requirements.in
@@ -487,6 +487,7 @@ typing-extensions==4.13.2
     #   azure-mgmt-compute
     #   azure-mgmt-containerregistry
     #   azure-mgmt-containerservice
+    #   azure-mgmt-cosmosdb
     #   azure-mgmt-datafactory
     #   azure-mgmt-devtestlabs
     #   azure-mgmt-dns
