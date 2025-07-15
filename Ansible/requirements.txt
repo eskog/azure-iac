@@ -19,7 +19,7 @@ ansible-core==2.18.6
     #   ansible
     #   ansible-compat
     #   ansible-lint
-ansible-lint==25.5.0
+ansible-lint==25.6.1
     # via -r requirements.in
 anyio==4.9.0
     # via httpx
@@ -461,8 +461,10 @@ rpds-py==0.24.0
     # via
     #   jsonschema
     #   referencing
-ruamel-yaml==0.18.10
+ruamel-yaml==0.18.14
     # via ansible-lint
+ruamel-yaml-clib==0.2.12
+    # via ruamel-yaml
 six==1.17.0
     # via azure-core
 sniffio==1.3.1
