@@ -6,9 +6,9 @@
 #
 aiohappyeyeballs==2.6.1
     # via aiohttp
-aiohttp==3.11.18
+aiohttp==3.12.14
     # via microsoft-kiota-authentication-azure
-aiosignal==1.3.2
+aiosignal==1.4.0
     # via aiohttp
 ansible==11.6.0
     # via -r requirements.in
