@@ -254,7 +254,7 @@ frozenlist==1.6.0
     #   aiosignal
 h11==0.16.0
     # via httpcore
-h2==4.2.0
+h2==4.3.0
     # via
     #   -r requirements.in
     #   httpx
