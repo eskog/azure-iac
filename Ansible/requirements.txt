@@ -12,14 +12,14 @@ aiosignal==1.4.0
     # via aiohttp
 ansible==11.9.0
     # via -r requirements.in
-ansible-compat==25.1.5
+ansible-compat==25.8.1
     # via ansible-lint
 ansible-core==2.18.8
     # via
     #   ansible
     #   ansible-compat
     #   ansible-lint
-ansible-lint==25.6.1
+ansible-lint==25.8.2
     # via -r requirements.in
 anyio==4.9.0
     # via httpx
