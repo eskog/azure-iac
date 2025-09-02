@@ -209,7 +209,7 @@ azure-mgmt-storage==23.0.0
     # via -r requirements.in
 azure-mgmt-trafficmanager==1.1.0
     # via -r requirements.in
-azure-mgmt-web==9.0.0
+azure-mgmt-web==10.0.0
     # via -r requirements.in
 azure-nspkg==3.0.2
     # via azure-mgmt-nspkg
