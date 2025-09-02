@@ -179,7 +179,7 @@ azure-mgmt-managementgroups==1.1.0b2
     # via -r requirements.in
 azure-mgmt-marketplaceordering==1.2.0b2
     # via -r requirements.in
-azure-mgmt-monitor==6.0.2
+azure-mgmt-monitor==7.0.0
     # via -r requirements.in
 azure-mgmt-network==29.0.0
     # via -r requirements.in
@@ -501,6 +501,7 @@ typing-extensions==4.13.2
     #   azure-mgmt-managedservices
     #   azure-mgmt-managementgroups
     #   azure-mgmt-marketplaceordering
+    #   azure-mgmt-monitor
     #   azure-mgmt-network
     #   azure-mgmt-privatedns
     #   azure-mgmt-rdbms
