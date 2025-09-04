@@ -34,7 +34,7 @@ attrs==25.3.0
     #   aiohttp
     #   jsonschema
     #   referencing
-azure-cli-core==2.76.0
+azure-cli-core==2.77.0
     # via -r requirements.in
 azure-cli-telemetry==1.1.0
     # via azure-cli-core
@@ -78,8 +78,9 @@ azure-common==1.1.28
     #   azure-mgmt-web
 azure-containerregistry==1.2.0
     # via -r requirements.in
-azure-core==1.34.0
+azure-core==1.35.0
     # via
+    #   azure-cli-core
     #   azure-containerregistry
     #   azure-identity
     #   azure-keyvault-certificates
@@ -362,7 +363,7 @@ microsoft-kiota-serialization-text==1.9.3
     # via msgraph-sdk
 microsoft-security-utilities-secret-masker==1.0.0b4
     # via azure-cli-core
-msal==1.33.0b1
+msal==1.34.0b1
     # via
     #   azure-cli-core
     #   azure-identity
