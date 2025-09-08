@@ -522,7 +522,7 @@ wcmatch==10.0
     # via ansible-lint
 wrapt==1.17.2
     # via deprecated
-xmltodict==0.14.2
+xmltodict==0.15.1
     # via -r requirements.in
 yamllint==1.37.1
     # via ansible-lint
