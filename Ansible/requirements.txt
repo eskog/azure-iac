@@ -206,7 +206,7 @@ azure-mgmt-servicebus==9.0.0
     # via -r requirements.in
 azure-mgmt-sql==4.0.0b22
     # via -r requirements.in
-azure-mgmt-storage==23.0.0
+azure-mgmt-storage==23.0.1
     # via -r requirements.in
 azure-mgmt-trafficmanager==1.1.0
     # via -r requirements.in
