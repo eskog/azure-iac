@@ -37,7 +37,7 @@ azure-mgmt-resource==24.0.0
 azure-mgmt-search==9.2.0
 azure-mgmt-servicebus==9.0.0
 azure-mgmt-sql==4.0.0b23
-azure-mgmt-storage==23.0.1
+azure-mgmt-storage==23.1.0
 azure-mgmt-trafficmanager==1.1.0
 azure-mgmt-web==10.0.0
 azure-storage-blob==12.27.0b1
