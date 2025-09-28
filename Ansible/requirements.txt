@@ -45,7 +45,6 @@ azure-common==1.1.28
     #   azure-mgmt-automation
     #   azure-mgmt-batch
     #   azure-mgmt-cdn
-    #   azure-mgmt-compute
     #   azure-mgmt-containerinstance
     #   azure-mgmt-containerregistry
     #   azure-mgmt-containerservice
@@ -108,7 +107,7 @@ azure-mgmt-batch==18.0.0
     # via -r requirements.in
 azure-mgmt-cdn==13.1.1
     # via -r requirements.in
-azure-mgmt-compute==36.0.0
+azure-mgmt-compute==37.0.0
     # via -r requirements.in
 azure-mgmt-containerinstance==10.1.0
     # via -r requirements.in
@@ -292,7 +291,6 @@ isodate==0.7.2
     #   azure-mgmt-automation
     #   azure-mgmt-batch
     #   azure-mgmt-cdn
-    #   azure-mgmt-compute
     #   azure-mgmt-containerinstance
     #   azure-mgmt-containerregistry
     #   azure-mgmt-containerservice
@@ -377,6 +375,7 @@ msgraph-sdk==1.45.0
     # via -r requirements.in
 msrest==0.7.1
     # via
+    #   azure-mgmt-compute
     #   azure-mgmt-keyvault
     #   azure-mgmt-sql
 multidict==6.4.3
