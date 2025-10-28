@@ -47,7 +47,6 @@ azure-common==1.1.28
     #   azure-mgmt-cdn
     #   azure-mgmt-containerinstance
     #   azure-mgmt-containerregistry
-    #   azure-mgmt-containerservice
     #   azure-mgmt-cosmosdb
     #   azure-mgmt-datafactory
     #   azure-mgmt-devtestlabs
@@ -113,7 +112,7 @@ azure-mgmt-containerinstance==10.1.0
     # via -r requirements.in
 azure-mgmt-containerregistry==14.0.0
     # via -r requirements.in
-azure-mgmt-containerservice==39.1.0
+azure-mgmt-containerservice==40.0.0
     # via -r requirements.in
 azure-mgmt-core==1.6.0
     # via
@@ -293,7 +292,6 @@ isodate==0.7.2
     #   azure-mgmt-cdn
     #   azure-mgmt-containerinstance
     #   azure-mgmt-containerregistry
-    #   azure-mgmt-containerservice
     #   azure-mgmt-cosmosdb
     #   azure-mgmt-datafactory
     #   azure-mgmt-devtestlabs
@@ -376,6 +374,7 @@ msgraph-sdk==1.47.0
 msrest==0.7.1
     # via
     #   azure-mgmt-compute
+    #   azure-mgmt-containerservice
     #   azure-mgmt-keyvault
     #   azure-mgmt-sql
 multidict==6.4.3
