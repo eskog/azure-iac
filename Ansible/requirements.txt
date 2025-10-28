@@ -212,7 +212,7 @@ azure-mgmt-web==10.0.0
     # via -r requirements.in
 azure-nspkg==3.0.2
     # via azure-mgmt-nspkg
-azure-storage-blob==12.27.0b1
+azure-storage-blob==12.27.0
     # via -r requirements.in
 black==25.1.0
     # via ansible-lint
