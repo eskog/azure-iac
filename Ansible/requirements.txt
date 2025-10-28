@@ -65,7 +65,6 @@ azure-common==1.1.28
     #   azure-mgmt-privatedns
     #   azure-mgmt-rdbms
     #   azure-mgmt-recoveryservices
-    #   azure-mgmt-recoveryservicesbackup
     #   azure-mgmt-redis
     #   azure-mgmt-resource
     #   azure-mgmt-search
@@ -192,7 +191,7 @@ azure-mgmt-rdbms==10.2.0b18
     # via -r requirements.in
 azure-mgmt-recoveryservices==3.1.0
     # via -r requirements.in
-azure-mgmt-recoveryservicesbackup==9.2.0
+azure-mgmt-recoveryservicesbackup==10.0.0
     # via -r requirements.in
 azure-mgmt-redis==14.5.0
     # via -r requirements.in
@@ -311,7 +310,6 @@ isodate==0.7.2
     #   azure-mgmt-privatedns
     #   azure-mgmt-rdbms
     #   azure-mgmt-recoveryservices
-    #   azure-mgmt-recoveryservicesbackup
     #   azure-mgmt-redis
     #   azure-mgmt-resource
     #   azure-mgmt-search
@@ -377,6 +375,7 @@ msrest==0.7.1
     # via
     #   azure-mgmt-compute
     #   azure-mgmt-keyvault
+    #   azure-mgmt-recoveryservicesbackup
     #   azure-mgmt-sql
 multidict==6.4.3
     # via

@@ -31,7 +31,7 @@ azure-mgmt-nspkg==3.0.2
 azure-mgmt-privatedns==1.2.0
 azure-mgmt-rdbms==10.2.0b18
 azure-mgmt-recoveryservices==3.1.0
-azure-mgmt-recoveryservicesbackup==9.2.0
+azure-mgmt-recoveryservicesbackup==10.0.0
 azure-mgmt-redis==14.5.0
 azure-mgmt-resource==24.0.0
 azure-mgmt-search==9.2.0
