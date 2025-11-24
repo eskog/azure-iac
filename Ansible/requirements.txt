@@ -62,7 +62,6 @@ azure-common==1.1.28
     #   azure-mgmt-notificationhubs
     #   azure-mgmt-privatedns
     #   azure-mgmt-rdbms
-    #   azure-mgmt-recoveryservices
     #   azure-mgmt-redis
     #   azure-mgmt-resource
     #   azure-mgmt-search
@@ -187,7 +186,7 @@ azure-mgmt-privatedns==1.2.0
     # via -r requirements.in
 azure-mgmt-rdbms==10.2.0b18
     # via -r requirements.in
-azure-mgmt-recoveryservices==3.1.0
+azure-mgmt-recoveryservices==4.0.0
     # via -r requirements.in
 azure-mgmt-recoveryservicesbackup==10.0.0
     # via -r requirements.in
