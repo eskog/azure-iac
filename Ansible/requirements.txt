@@ -69,7 +69,6 @@ azure-common==1.1.28
     #   azure-mgmt-servicebus
     #   azure-mgmt-storage
     #   azure-mgmt-trafficmanager
-    #   azure-mgmt-web
 azure-containerregistry==1.2.0
     # via -r requirements.in
 azure-core==1.35.0
@@ -205,7 +204,7 @@ azure-mgmt-storage==23.1.0
     # via -r requirements.in
 azure-mgmt-trafficmanager==1.1.0
     # via -r requirements.in
-azure-mgmt-web==10.0.0
+azure-mgmt-web==10.1.0
     # via -r requirements.in
 azure-nspkg==3.0.2
     # via azure-mgmt-nspkg
@@ -312,7 +311,6 @@ isodate==0.7.2
     #   azure-mgmt-servicebus
     #   azure-mgmt-storage
     #   azure-mgmt-trafficmanager
-    #   azure-mgmt-web
     #   azure-storage-blob
     #   msrest
 jinja2==3.1.6
@@ -375,6 +373,7 @@ msrest==0.7.1
     #   azure-mgmt-network
     #   azure-mgmt-recoveryservicesbackup
     #   azure-mgmt-sql
+    #   azure-mgmt-web
 multidict==6.4.3
     # via
     #   aiohttp
