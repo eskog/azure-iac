@@ -52,7 +52,6 @@ azure-common==1.1.28
     #   azure-mgmt-devtestlabs
     #   azure-mgmt-dns
     #   azure-mgmt-eventhub
-    #   azure-mgmt-hdinsight
     #   azure-mgmt-iothub
     #   azure-mgmt-loganalytics
     #   azure-mgmt-managedservices
@@ -158,7 +157,7 @@ azure-mgmt-dns==9.0.0
     # via -r requirements.in
 azure-mgmt-eventhub==11.2.0
     # via -r requirements.in
-azure-mgmt-hdinsight==9.1.0b1
+azure-mgmt-hdinsight==9.1.0b2
     # via -r requirements.in
 azure-mgmt-iothub==4.0.0
     # via -r requirements.in
@@ -292,7 +291,6 @@ isodate==0.7.2
     #   azure-mgmt-devtestlabs
     #   azure-mgmt-dns
     #   azure-mgmt-eventhub
-    #   azure-mgmt-hdinsight
     #   azure-mgmt-iothub
     #   azure-mgmt-loganalytics
     #   azure-mgmt-managedservices
@@ -366,6 +364,7 @@ msrest==0.7.1
     # via
     #   azure-mgmt-compute
     #   azure-mgmt-containerservice
+    #   azure-mgmt-hdinsight
     #   azure-mgmt-keyvault
     #   azure-mgmt-network
     #   azure-mgmt-recoveryservicesbackup
