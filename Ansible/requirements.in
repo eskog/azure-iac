@@ -39,7 +39,7 @@ azure-mgmt-servicebus==9.0.0
 azure-mgmt-sql==4.0.0b24
 azure-mgmt-storage==24.0.0
 azure-mgmt-trafficmanager==1.1.0
-azure-mgmt-web==10.0.0
+azure-mgmt-web==10.1.0
 azure-storage-blob==12.27.1
 h2==4.3.0
 msgraph-sdk==1.49.0
