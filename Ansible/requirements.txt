@@ -107,7 +107,7 @@ azure-mgmt-containerinstance==10.1.0
     # via -r requirements.in
 azure-mgmt-containerregistry==14.0.0
     # via -r requirements.in
-azure-mgmt-containerservice==40.0.0
+azure-mgmt-containerservice==40.2.0
     # via -r requirements.in
 azure-mgmt-core==1.6.0
     # via
