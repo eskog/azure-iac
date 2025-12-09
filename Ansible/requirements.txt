@@ -53,7 +53,6 @@ azure-common==1.1.28
     #   azure-mgmt-dns
     #   azure-mgmt-eventhub
     #   azure-mgmt-iothub
-    #   azure-mgmt-loganalytics
     #   azure-mgmt-managedservices
     #   azure-mgmt-managementgroups
     #   azure-mgmt-marketplaceordering
@@ -163,7 +162,7 @@ azure-mgmt-iothub==4.0.0
     # via -r requirements.in
 azure-mgmt-keyvault==12.1.1
     # via -r requirements.in
-azure-mgmt-loganalytics==13.0.0b7
+azure-mgmt-loganalytics==13.1.0
     # via -r requirements.in
 azure-mgmt-managedservices==7.0.0b2
     # via -r requirements.in
@@ -295,7 +294,6 @@ isodate==0.7.2
     #   azure-mgmt-dns
     #   azure-mgmt-eventhub
     #   azure-mgmt-iothub
-    #   azure-mgmt-loganalytics
     #   azure-mgmt-managedservices
     #   azure-mgmt-managementgroups
     #   azure-mgmt-marketplaceordering
@@ -369,6 +367,7 @@ msrest==0.7.1
     #   azure-mgmt-containerservice
     #   azure-mgmt-hdinsight
     #   azure-mgmt-keyvault
+    #   azure-mgmt-loganalytics
     #   azure-mgmt-network
     #   azure-mgmt-recoveryservicesbackup
     #   azure-mgmt-sql
