@@ -174,7 +174,7 @@ azure-mgmt-marketplaceordering==1.2.0b2
     # via -r requirements.in
 azure-mgmt-monitor==7.0.0
     # via -r requirements.in
-azure-mgmt-network==30.0.0
+azure-mgmt-network==30.1.0
     # via -r requirements.in
 azure-mgmt-notificationhubs==8.1.0b2
     # via -r requirements.in
