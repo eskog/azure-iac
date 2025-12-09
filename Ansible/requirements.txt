@@ -101,7 +101,7 @@ azure-mgmt-batch==18.0.0
     # via -r requirements.in
 azure-mgmt-cdn==13.1.1
     # via -r requirements.in
-azure-mgmt-compute==37.0.1
+azure-mgmt-compute==37.1.0
     # via -r requirements.in
 azure-mgmt-containerinstance==10.1.0
     # via -r requirements.in
