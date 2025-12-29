@@ -160,7 +160,7 @@ azure-mgmt-hdinsight==9.1.0b2
     # via -r requirements.in
 azure-mgmt-iothub==4.0.0
     # via -r requirements.in
-azure-mgmt-keyvault==12.1.1
+azure-mgmt-keyvault==13.0.0
     # via -r requirements.in
 azure-mgmt-loganalytics==13.1.0
     # via -r requirements.in
@@ -294,6 +294,7 @@ isodate==0.7.2
     #   azure-mgmt-dns
     #   azure-mgmt-eventhub
     #   azure-mgmt-iothub
+    #   azure-mgmt-keyvault
     #   azure-mgmt-managedservices
     #   azure-mgmt-managementgroups
     #   azure-mgmt-marketplaceordering
@@ -366,7 +367,6 @@ msrest==0.7.1
     #   azure-mgmt-compute
     #   azure-mgmt-containerservice
     #   azure-mgmt-hdinsight
-    #   azure-mgmt-keyvault
     #   azure-mgmt-loganalytics
     #   azure-mgmt-network
     #   azure-mgmt-recoveryservicesbackup
