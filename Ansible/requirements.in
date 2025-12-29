@@ -1,5 +1,5 @@
 ansible==13.1.0
-ansible-lint==25.12.1
+ansible-lint==25.12.2
 azure-cli-core==2.81.0
 azure-containerregistry==1.2.0
 azure-keyvault==4.2.0
