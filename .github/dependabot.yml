@@ -23,3 +23,13 @@ updates:
     directory: "/Terraform" # adjust if your terraform files are in a subdir
     schedule:
       interval: "daily"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    assignees:
+      - "eskog"
+    schedule:
+      interval: "daily"
+    labels:
+      - "github-actions"
+      - "chore"
