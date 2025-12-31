@@ -1,16 +1,23 @@
 version: 2
 updates:
   # Python requirements.txt
-  - package-ecosystem: "pip"
-    directory: "/Ansible"  # Path to your requirements.txt file (root directory)
+  - package-ecosystem: "uv"
+    directory: "/Ansible"
+    assignees:
+      - "eskog"
     schedule:
       interval: "daily"
     labels:
-      - "dependencies"
       - "python"
+      - "chore"
+      - "dependencies"
     commit-message:
-      prefix: "chore(deps)"
-      include: "scope"
+      prefix: "Chore:"
+    groups:
+      all-pip-deps:
+        applies-to: "version-updates"
+        patterns:
+        - '*'
 
   - package-ecosystem: "terraform"
     directory: "/Terraform" # adjust if your terraform files are in a subdir
