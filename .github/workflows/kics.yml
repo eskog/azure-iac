@@ -26,7 +26,3 @@ jobs:
       - name: display kics results
         run: |
           cat kics_results/results.json
-
-       - name: display kics results
-         run: |
-           cat kics_results/results.json
