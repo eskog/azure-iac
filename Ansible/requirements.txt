@@ -162,7 +162,7 @@ azure-mgmt-iothub==4.0.0
     # via -r requirements.in
 azure-mgmt-keyvault==13.0.0
     # via -r requirements.in
-azure-mgmt-loganalytics==13.1.0
+azure-mgmt-loganalytics==13.1.1
     # via -r requirements.in
 azure-mgmt-managedservices==7.0.0b2
     # via -r requirements.in
@@ -259,7 +259,7 @@ hpack==4.1.0
     # via h2
 httpcore==1.0.9
     # via httpx
-httpx[http2]==0.28.1
+httpx==0.28.1
     # via
     #   microsoft-kiota-http
     #   msgraph-core
@@ -295,6 +295,7 @@ isodate==0.7.2
     #   azure-mgmt-eventhub
     #   azure-mgmt-iothub
     #   azure-mgmt-keyvault
+    #   azure-mgmt-loganalytics
     #   azure-mgmt-managedservices
     #   azure-mgmt-managementgroups
     #   azure-mgmt-marketplaceordering
@@ -367,7 +368,6 @@ msrest==0.7.1
     #   azure-mgmt-compute
     #   azure-mgmt-containerservice
     #   azure-mgmt-hdinsight
-    #   azure-mgmt-loganalytics
     #   azure-mgmt-network
     #   azure-mgmt-recoveryservicesbackup
     #   azure-mgmt-sql
@@ -428,7 +428,7 @@ pycparser==2.22
     # via cffi
 pygments==2.19.1
     # via knack
-pyjwt[crypto]==2.10.1
+pyjwt==2.10.1
     # via
     #   azure-cli-core
     #   msal
@@ -450,7 +450,7 @@ referencing==0.36.2
     #   ansible-lint
     #   jsonschema
     #   jsonschema-specifications
-requests[socks]==2.32.3
+requests==2.32.3
     # via
     #   azure-cli-core
     #   azure-core
@@ -467,10 +467,6 @@ rpds-py==0.24.0
     #   referencing
 ruamel-yaml==0.18.14
     # via ansible-lint
-ruamel-yaml-clib==0.2.12
-    # via
-    #   ansible-lint
-    #   ruamel-yaml
 six==1.17.0
     # via azure-core
 sniffio==1.3.1
